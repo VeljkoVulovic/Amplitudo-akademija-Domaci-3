@@ -1,0 +1,71 @@
+body{
+    width:70%;
+    margin: auto 15% !important;
+}
+
+#header{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#header h1 i{
+    margin-right:20px;
+}
+
+#header h3{
+    margin-top: 30px;
+    color:gray;
+}
+
+#searchBox{
+    margin-top:70px;
+}
+
+#searchBox form{
+    display: inline-flex;
+    width: 100%;
+}
+
+#searchBox form *:not(:last-child){
+    margin-right:15px;
+}
+
+#buttonSearch{
+    width:50%;
+}
+
+#divResponse{
+    margin-top: 50px;
+    text-align: justify;
+}
+
+#poster{
+    float: left;
+    margin-right: 150px;
+    width:400px;
+    height: 600px;
+}
+
+#divResponse h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#divResponse p{
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

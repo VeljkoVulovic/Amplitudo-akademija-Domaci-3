@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>The Open Movie DataBase</title>
+    
+  </head>
+
+  <body>
+
+    <div id="header">
+      <h1><i class="fa fa-film"></i>The Open Movie DataBase</h1>
+      <h3>Svi podaci o Vašim omiljenim filmovima i serijama na jednom mjestu!</h3>
+    </div>
+
+    <div id="searchBox">
+      <form>
+        <input type="text" class="form-control" id="searchTitle"  placeholder="Unesite kriterijum pretrage..." required>
+        <select class="form-control" id="selectType">
+          <option value="movie">Film</option>
+          <option value="series">Serija</option>
+        </select>
+        <input type="number" class="form-control" id="searchYear"  placeholder="Godina">
+        <button type="button" class="btn btn-secondary" id="buttonSearch"><i class="fa fa-search"></i> Pretraga</button>
+      </form>
+    </div>
+
+    <div id="divResponse">
+      <!-- response text -->
+    </div>
+    
+    <!--jQuery and Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- JS -->
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
